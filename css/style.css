@@ -1,0 +1,150 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+}
+body {
+   font-size:10pt;
+   color:#e6e6e6;
+}
+img {
+   max-width: 100%;
+}
+.header {
+   margin: 35px;
+}
+.header-mid {
+   width:90%;
+   margin:10px auto;
+   overflow: hidden;
+}
+.logo {
+   width:15%;
+   float: left;
+}
+.menu-top {
+   width: 85%;
+   float: right;
+}
+.menu-top ul {
+   list-style: none;
+   float: right;
+}
+.menu-top ul li {
+   display: inline-block;
+   padding: 0px 15px;
+   font-size: 12pt;
+   text-transform: uppercase;
+   font-family: Times New Roman;
+}
+.menu-top ul li a {
+   color:#6e6e6e;
+}
+.img-100 {
+   width:100%;
+   height: auto;
+   margin: 20px 0 10px 0;
+}
+.body-80-center {
+   width:80%;
+   margin:0 auto;
+}
+.home-post {
+   
+}
+.home-post h3,.items h3 {
+   color:#7e7e7e;
+   font-size: 11pt;
+   padding: 20px 0;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.home-post h1,.items h1 {
+   color:#7e7e7e;
+   font-size: 16pt;
+   margin-bottom: 25px;
+   font-weight: 480;
+   font-family: Times New Roman;
+}
+.home-post p,.items p {
+   text-transform: capitalize;
+   text-align: justify;
+   color: #7e7e7e;
+   margin:8px 0 15px 0;
+}
+.items {
+   
+}
+.items img {
+   max-height: 200px;
+}
+.items ul {
+   list-style: none;
+   overflow: hidden;
+   margin:50px 0;
+}
+.items ul li {
+   width: 50%;
+   float: left;
+}
+.items-content {
+   margin-right: 20px;
+}
+.newslater {
+   background-color: #e9e9e9;
+   padding: 40px 0;
+   text-align: center;
+   font-family: Times New Roman;
+   color:#7c7c7c;
+}
+.newslater-mid {
+   width:35%;
+   margin: 0 auto;
+}
+.newslater h1 {
+   font-size: 26px;
+}
+.newslater-mid input {
+   margin:20px 0;
+   width: 100%;
+   height: 35px;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #747474;
+   background-color: transparent;
+   border-radius: 2px;
+}
+.newslater-mid input::placeholder {
+   font-size:12pt;
+   font-weight: 450;
+   color:gray;
+}
+.load-more-btn {
+   padding: 50px 0px;
+   text-align: center;
+}
+.load-more-btn button {
+   padding: 14px 20px;
+   border:1px solid #444444;
+   text-transform: uppercase;
+   font-size: 15px;
+   font-family: Times New Roman;
+   background-color:transparent;
+}
+.input {
+   position: relative;
+}
+.send {
+   poaition:absolute;
+   right:0;
+   top:10%;
+   font-size: 25px;
+   color: gray;
+}
+.footer {
+   background-color: #e9e9e9;
+   padding:30px;
+}
+.footer-mid {
+   margin: 0 auto;
+}
